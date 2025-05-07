@@ -1,3 +1,9 @@
+"""
+Drowsiness Detection System - CNN Model Training
+Author: Phạm Lê Ngọc Sơn
+
+This script trains a CNN model to classify eye states as either 'Open' or 'Closed'.
+"""
 import os
 from keras.preprocessing import image
 import matplotlib.pyplot as plt 

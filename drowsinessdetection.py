@@ -1,3 +1,9 @@
+"""
+Drowsiness Detection System
+Author: Phạm Lê Ngọc Sơn
+
+This script monitors the user's eye state through a webcam and triggers an alarm when signs of drowsiness are detected.
+"""
 import cv2
 import os
 from keras.models import load_model
